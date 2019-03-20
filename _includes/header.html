@@ -2,8 +2,8 @@
 <nav>
     <table>
         <tr>
-            {% for name in site.collections.subsections %}
-            <td>{{name | capitalize}}</td>
+            {% for name in site.subsections %}
+            <td><a href="/{{name}}" class="nav_link link">{{name | capitalize}}</a></td>
             {% endfor %}
         </tr>
     </table>

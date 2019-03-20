@@ -1,23 +1,12 @@
 
-body {
-    margin: 0px auto;
-    text-align: center;
-    background-color: $light_red;
-}
 
-header {
-    background-image: linear-gradient($light_red, $crimson);
-    font-size: 30px;
-    padding: 10px 0px;
-}
 
 nav {
     background-color: $crimson;
 }
 
 table {
-    width: 60%;
-    margin: 0px auto;
+    width: 100%;
 }
 
 .main_block {
@@ -31,9 +20,6 @@ table {
     }
 }
 
-tr {
-    display: flex;
-    justify-content: space-between;
-}
-
+@import 'base.scss';
+@import 'header.scss';
 @import 'footer.scss';

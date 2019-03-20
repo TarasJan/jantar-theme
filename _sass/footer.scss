@@ -3,17 +3,8 @@ footer {
     background-image: linear-gradient($crimson, $light_red);
     display: grid;
     padding: 15px 0px;
+}
 
-    .fa {
-        padding: 5px;
-        color: $dark_crimson;
-        text-decoration: none;
-        &:visited {
-            color: $dark_crimson;
-        }
-
-        &:hover {
-            color: $white;
-        }
-    }
+.fa.link {
+    padding: 5px;
 }
